@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persian Dictionary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>فرهنگ لغت فارسی</h1>
+    </header>
+    <div class="container">
+        <form id="searchForm" action="/search" method="post">
+            <input type="text" id="search_term" name="search_term" placeholder="کلمه فارسی یا انگلیسی را جستجو کنید">
+            <button type="submit">جستجو</button>
+        </form>
+        <div id="suggestions"></div>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+form {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.dictionary-entry {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.dictionary-entry:last-child {
+    border-bottom: none;
+}
+
+.dictionary-entry h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.dictionary-entry p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+#suggestions {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.suggestion-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
